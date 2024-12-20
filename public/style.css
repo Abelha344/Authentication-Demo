@@ -1,0 +1,120 @@
+/* body{
+background-color: rgb(54, 46, 46); 
+color: aqua;
+text-align: center;   
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner-box{
+    width: 550px;
+    border: 1px solid black;
+
+}
+.form-group{
+    font-weight: 500;
+}
+input{
+    border: none;
+    border-radius: 4px;
+    height: 25px;
+}
+.button-group{
+    justify-content: center;
+    margin: 2rem 0;
+}
+button{
+    width: 150px;
+    padding: 5px 0;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(red, green, blue);
+    cursor: pointer;
+} */   
+
+
+/* General Styles */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container Styling */
+  .container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 350px;
+  }
+  
+  /* Inner Box Styling */
+  .inner-box {
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  h2 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Labels Styling */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  /* Input Fields Styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Button Styling */
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
